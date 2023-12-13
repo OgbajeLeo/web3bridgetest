@@ -1,38 +1,87 @@
-.App {
-  text-align: center;
-}
+/* ReactApp.css */
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* Styling for the discount code input and button */
+.discount-section {
+  margin-top: 20px;
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+.discount-input {
+  padding: 8px;
+  margin-right: 10px;
+  font-size: 16px;
+}
+
+.discount-button {
+  padding: 10px;
+  background-color: #4caf50; /* Green background color */
   color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
 }
 
-.App-link {
-  color: #61dafb;
+.discount-button:hover {
+  background-color: #45a049; /* Darker green on hover */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Styling for the total price section */
+.total-section {
+  margin-top: 20px;
+}
+
+.total-price {
+  font-size: 20px;
+  color: #333;
+}
+
+
+
+/* app.css */
+
+/* Styling for the product list */
+.product-list {
+  list-style: none;
+  padding: 0;
+}
+
+.product-item {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin: 10px 0;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.product-title {
+  font-size: 18px;
+  margin-right: 10px;
+}
+
+.product-price {
+  font-size: 16px;
+  color: #333;
+}
+
+.product-buttons {
+  display: flex;
+  align-items: center;
+}
+
+.product-button {
+  padding: 8px;
+  margin: 0 5px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.product-button:hover {
+  background-color: #45a049;
 }
