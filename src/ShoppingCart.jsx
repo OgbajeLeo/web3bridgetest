@@ -81,7 +81,7 @@ const ShoppingCart = () => {
 
   return (
     <>
-      <h1>Unique Shopping Cart</h1>
+      <h1>Winners Shopping Cart</h1>
       {/* Pass the error state to UniqueProductList */}
       <UniqueProductList
         uniqueProducts={uniqueProducts}
